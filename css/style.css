@@ -140,7 +140,7 @@ main {
 }
 
 .main-exchange-container--title p {
-    margin-bottom: 30px;
+    margin-bottom: 48px;
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.6rem;
@@ -158,13 +158,17 @@ main {
 
 .main-currency-table .currency-table--title {
     margin-bottom: 12px;
+    margin-left: 20px;
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 2.3rem;
     color: var(--bitcoin-orange);
+    text-align: left;
 }
 
 .currency-table--container {
+    display: flex;
+    align-items: center;
     width: 90%;
     min-width: 230px;
     max-width: 300px;
@@ -229,4 +233,75 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.currency-table--container .logo-bitcoin {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    background-image: url('https://logos-world.net/wp-content/uploads/2020/08/Bitcoin-Emblem.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.currency-table--container .logo-ethereum {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    background-image: url('https://www.pngall.com/wp-content/uploads/10/Ethereum-Logo-PNG.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.currency-table--container .logo-ripple {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    background-image: url('https://seeklogo.com/images/R/ripple-xrp-logo-E97D62205B-seeklogo.com.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;   
+}
+
+.currency-table--container .logo-stellar {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/56/Stellar_Symbol.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;   
+}
+
+.currency-table--container .right-arrow {
+    position: relative;
+    left: 21px;
+    width: 7px;
+    height: 12px;
+    background-image: url('https://i.ibb.co/kSH8GfT/right-arrow.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;   
+}
+
+.currency-table--date {
+    width: 210px;
+    height: 32px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 8px;
+    background-color: var(--soft-orange);
+    border-radius: 8px;
+}
+
+.currency-table--date p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: var(--warm-black);
 }
